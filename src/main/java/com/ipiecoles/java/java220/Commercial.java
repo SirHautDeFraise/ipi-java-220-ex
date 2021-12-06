@@ -8,12 +8,8 @@ public class Commercial extends Employe {
 
 	private Integer performance;
 
-	public Commercial() {
-		
-	}
-	
 	public Commercial(String nom, String prenom, String matricule, LocalDate dateEmbauche, Double salaire,
-			Double caAnnuel) {
+					  Double caAnnuel) {
 		super(nom, prenom, matricule, dateEmbauche, salaire);
 		this.caAnnuel = caAnnuel;
 	}
